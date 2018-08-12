@@ -336,7 +336,7 @@ BOOL InitConfiguration(void)
     ConfigSetDefaultBool(l_ConfigVideoRice, "SmallTextureOnly", FALSE, "If enabled, texture enhancement will be done only for textures width+height<=128");
     ConfigSetDefaultBool(l_ConfigVideoRice, "LoadHiResCRCOnly", TRUE, "Select hi-resolution textures based only on the CRC and ignore format+size information (Glide64 compatibility)");
     ConfigSetDefaultBool(l_ConfigVideoRice, "LoadHiResTextures", FALSE, "Enable hi-resolution texture file loading");
-    ConfigSetDefaultBool(l_ConfigVideoRice, "DumpTexturesToFiles", FALSE, "Enable texture dumping");
+    ConfigSetDefaultBool(l_ConfigVideoRice, "DumpTexturesToFiles", TRUE, "Enable texture dumping");
     ConfigSetDefaultBool(l_ConfigVideoRice, "ShowFPS", FALSE, "Display On-screen FPS");
 
     ConfigSetDefaultInt(l_ConfigVideoRice, "Mipmapping", 2, "Use Mipmapping? 0=no, 1=nearest, 2=bilinear, 3=trilinear");

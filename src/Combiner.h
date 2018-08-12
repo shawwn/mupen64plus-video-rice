@@ -34,6 +34,8 @@ class CColorCombiner
 public:
     virtual ~CColorCombiner() {};
     virtual void InitCombinerMode(void);
+    virtual void DisplaySimpleMuxString(void);
+    virtual void DisplayMuxString(void);
 
     virtual bool Initialize(void)=0;
     virtual void CleanUp(void) {};

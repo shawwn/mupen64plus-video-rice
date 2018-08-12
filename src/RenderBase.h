@@ -26,6 +26,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "Video.h"
 #include "osal_preproc.h"
 #include "typedefs.h"
+#include "GraphicsContext.h"
 
 /*
  *  Global variables defined in this file were moved out of Render class

@@ -18,9 +18,14 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 */
 
 #define M64P_PLUGIN_PROTOTYPES 1
+#include "Debugger.h"
 #include "m64p_plugin.h"
 #include "osal_preproc.h"
 #include "typedefs.h"
+#include "Video.h"
+#include "RenderBase.h"
+#include "Render.h"
+#include "FrameBuffer.h"
 
 #ifndef DEBUGGER
 void __cdecl DebuggerAppendMsg(const char * Message, ...) {}

@@ -116,6 +116,15 @@ void CColorCombiner::InitCombinerMode(void)
     }
 }
 
+void CColorCombiner::DisplaySimpleMuxString()
+{
+    /* TODO */
+}
+void CColorCombiner::DisplayMuxString()
+{
+    /* TODO */
+}
+
 bool bConkerHideShadow=false;
 // rgb0   = (A0 - B0) * C0 + D0
 // rgb1   = (A1 - B1) * C1 + D1

@@ -968,7 +968,7 @@ void InitVertex(uint32 dwV, uint32 vtxIndex, bool bTexture)
         }
     }
 
-    VTX_DUMP(TRACE2("  DIF(%08X)",   v.dcDiffuse));
+    VTX_DUMP(TRACE1("  DIF(%08X)",   v.dcDiffuse));
     VTX_DUMP(TRACE0(""));
 }
 
